@@ -2,6 +2,7 @@
 # 7-islower.py
 # Lukman Mohammed
 
+
 def islower(c):
     """Check for lowercase characters."""
     if ord(c) >= 97 and ord(c) <= 122:
