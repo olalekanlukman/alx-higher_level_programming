@@ -6,5 +6,5 @@ if __name__ = "__main__":
 names = dir()
 
 for i in range(0, len(names)):
-    if name[i][:2] != "__":
-        print("{}".format(name[i]))
+    if names[i][:2] != "__":
+        print("{}".format(names[i]))
