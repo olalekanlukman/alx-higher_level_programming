@@ -3,8 +3,10 @@
 
 def multiple_returns(sentence):
     x = len(sentence)
-    fir = sentence[0]
     if x == 0:
         fir = "None"
+    else:
+        fir = sentence[0]
+    
     z = x, fir
     return z
