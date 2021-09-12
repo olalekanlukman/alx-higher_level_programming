@@ -14,7 +14,7 @@ math = [add, sub, mul, div]
 for i in range(0, 4):
     if sys.argv[2] == operators[i]:
         print("{} {} {} = {}".format(sys.argv[1], operators[i], sys.argv[3],
-              mul(int(sys.argv[1]), int(sys.argv[3]))))
+              math[i](int(sys.argv[1]), int(sys.argv[3]))))
         break
 
 if sys.argv[2] != operators[i]:
