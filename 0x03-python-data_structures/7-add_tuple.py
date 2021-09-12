@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
+
 def add_tuple(tuple_a=(), tuple_b=()):
     x = list(tuple_a)
     y = list(tuple_b)
-    
     q = []
     i = 0
     z = 2
