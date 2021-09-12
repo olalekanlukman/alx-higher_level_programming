@@ -7,6 +7,6 @@ def multiple_returns(sentence):
         fir = "None"
     else:
         fir = sentence[0]
-    
+
     z = x, fir
     return z
