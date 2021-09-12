@@ -3,7 +3,7 @@
 
 def new_in_list(my_list, idx, element):
     if my_list:
-        if idx < 0 or idx => len(list):
+        if idx < 0 or idx >= len(my_list):
             return my_list
         x = []
         for i in my_list:
