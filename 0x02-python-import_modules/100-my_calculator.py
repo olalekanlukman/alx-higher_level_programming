@@ -19,3 +19,4 @@ for i in range(0, 4):
 
 if sys.argv[2] != operators[i]:
     print("Unknown operator. Available operators: +, -, * and /")
+    exit(1)
