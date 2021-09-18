@@ -2,6 +2,7 @@
 
 
 def best_score(a_dictionary):
-    maxi = 0
-    {k if maxi < a_dictionary[k] else maxi for k in a_dictionary}
-    return k
+    if not (a_dictionary):
+        return 'None'
+    else:
+        return max(a_dictionary)
