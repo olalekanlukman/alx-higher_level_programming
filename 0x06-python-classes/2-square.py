@@ -10,8 +10,9 @@ class Square:
     def __init__(self, size=0):
         """Initializes the data.
 
+
         Args:
-            gives the size of a square
+            size (int): gives the size of a square
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")

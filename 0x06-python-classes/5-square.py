@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+
 class Square:
     """Represents a square.
     Private instance attribute: size:
@@ -10,7 +12,11 @@ class Square:
     """
 
     def __init__(self, size=0):
-        """Initializes the data."""
+        """Initializes the data.
+
+        Args:
+            size (int): size of the square
+        """
         self.__size = size
 
     @property
